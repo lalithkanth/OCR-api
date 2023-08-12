@@ -1,3 +1,4 @@
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const convertapi = require('convertapi')('a9p5eLpXLvhfFGVS'); // Replace with your actual ConvertAPI key
@@ -49,7 +50,7 @@ app.post('/convert-and-ocr', async (req, res) => {
         // Call the OpenAI API with OCR text
         const openAIUrl = 'https://api.openai.com/v1/completions';
         const openAIHeaders = {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer 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',
             'Content-Type': 'application/json'
         };
 
